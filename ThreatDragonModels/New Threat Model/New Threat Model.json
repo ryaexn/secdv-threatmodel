@@ -376,7 +376,7 @@
           },
           {
             "position": {
-              "x": 603,
+              "x": 573,
               "y": 285
             },
             "size": {
@@ -538,7 +538,12 @@
             "target": {
               "cell": "c9b91aa8-2471-4e80-80b5-86c040195b13"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 520,
+                "y": 290
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -580,7 +585,13 @@
             },
             "target": {
               "cell": "4b55827c-03d5-45a5-9c73-9c800f0d6e1f"
-            }
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 190
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -626,8 +637,12 @@
             },
             "vertices": [
               {
-                "x": 210,
-                "y": 200
+                "x": 250,
+                "y": 190
+              },
+              {
+                "x": 270,
+                "y": 220
               }
             ]
           },
@@ -768,7 +783,16 @@
             "target": {
               "cell": "01a505e1-4bf5-4e66-9ef7-718339c70158"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 180,
+                "y": 320
+              },
+              {
+                "x": 220,
+                "y": 320
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -813,12 +837,12 @@
             },
             "vertices": [
               {
-                "x": 200,
-                "y": 430
+                "x": 190,
+                "y": 360
               },
               {
                 "x": 230,
-                "y": 430
+                "y": 360
               }
             ]
           },
@@ -858,18 +882,128 @@
             ],
             "id": "666dc194-a575-4543-9f1d-8454119129b5",
             "source": {
-              "x": 603,
-              "y": 345
+              "cell": "c9b91aa8-2471-4e80-80b5-86c040195b13",
+              "port": "a0fd7c9e-3cf3-4304-a11d-a3abf43a4d20"
             },
             "target": {
               "cell": "01a505e1-4bf5-4e66-9ef7-718339c70158",
-              "port": "13cd8ad1-e6e1-4049-b7b0-21396ddf025d"
-            }
+              "port": "7783ce1b-9019-4622-8830-af09d592effb"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 345
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic trust boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic trust boundary"
+            ],
+            "id": "9095ad66-0ad5-4332-9eb6-87c66b97c436",
+            "source": {
+              "x": 240,
+              "y": 90
+            },
+            "target": {
+              "x": 350,
+              "y": 480
+            },
+            "vertices": [
+              {
+                "x": 170,
+                "y": 170
+              },
+              {
+                "x": 170,
+                "y": 220
+              },
+              {
+                "x": 270,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic rust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic rust Boundary"
+            ],
+            "id": "dad66789-449d-4b2a-84af-25e49251593b",
+            "source": {
+              "x": 600,
+              "y": 100
+            },
+            "target": {
+              "x": 600,
+              "y": 450
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "25f6b388-5303-4d53-aa7a-29c00abda5e1",
+            "source": {
+              "x": 25,
+              "y": 120
+            },
+            "target": {
+              "x": 580,
+              "y": 150
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 170
+              }
+            ]
           },
           {
             "position": {
-              "x": 7,
-              "y": 285
+              "x": -23,
+              "y": 310
             },
             "size": {
               "width": 112.5,
